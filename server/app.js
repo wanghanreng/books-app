@@ -12,7 +12,7 @@ dotenv.config();
 const app = express();  
 
 // 允许特定源，并设置 Access-Control-Allow-Credentials
-const allowedOrigins = ["http://localhost:5173"];
+const allowedOrigins = ["http://8.136.110.222:4001"];
 app.use(
     cors({
         origin: function (origin,callback) {
